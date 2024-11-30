@@ -22,11 +22,11 @@ function Navbar() {
                 Toutes les demandes
               </NavLink>
             </li>
-            {/* <li className="nav-item">
+            <li className="nav-item">
               <NavLink className="nav-link" to="/Equipments-list">
                 Liste des equipements
               </NavLink>
-            </li> */}
+            </li>
           </ul>
         </div>
       </div>

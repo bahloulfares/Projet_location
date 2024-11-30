@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes  } from 'react-router-dom';
 import RequestMaintenance from './components/RequestMaintenance';
 import ViewRequests from './components/ViewRequests';
 import Navbar from './components/Navbar';
+import EquipmentsList from './components/EquipementsList';
 // import EquipmentList from './components/EquipmentList';
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
         <Routes >
         <Route path="/" element={<RequestMaintenance />} />
         <Route path="/view-requests" element={<ViewRequests />} />
-        {/* <Route path="/Equipments-list" element={<EquipmentList/>} /> */}
+        <Route path="/Equipments-list" element={<EquipmentsList/>} />
         </Routes >
       </div>
     </Router>
