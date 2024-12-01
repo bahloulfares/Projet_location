@@ -27,6 +27,11 @@ function Navbar() {
                 Liste des equipements
               </NavLink>
             </li>
+            <li className="nav-item">
+              <NavLink className="nav-link" to="/client-management">
+                Gestion des clients
+              </NavLink>
+            </li>
           </ul>
         </div>
       </div>
